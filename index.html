@@ -230,12 +230,52 @@
       <section id="register-part">
         <div class="container bg-info rounded shadow-lg ">
          <div class="row align-items-center p-5 ">
-          <div class="col-md-8">
+          <div class="col-md-8 text-white">
             <h2 class="bold">Ready to join?</h2>
             <p> Step by Step Instruction for Course Registration · Course Registration Schedule · Current Offered Courses</p>
            </div>
         <div class="col-md-4 ">   
-           <a href="" class="btn bg-white text-info border border-white">Register Now</a>
+           
+           <!-- Button trigger modal -->
+
+<button type="button" class="btn bg-white text-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Register Now
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-info" id="exampleModalLabel">Registration-form</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex">
+          <form action="" class="form-login mx-auto rounded text-info">
+            <h5>User Login</h5>
+            <input type="name" placeholder="Enter Your Name"
+            class="form-control mb-3">
+            <input type="Email" placeholder="Enter Your Email"
+            class="form-control mb-3">
+            <div class="checkbox mb-3">
+              <label for="">
+                <input type="checkbox">
+                Remember me
+              </label>
+              <div class="btn btn-info d-block w-50 my-2 text-white">
+                Submit
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info d-block w-25 text-white" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info d-block w-35 text-white">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
          </div>
         
